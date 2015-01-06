@@ -25,4 +25,11 @@ func (c *EventAction) Before() {
 func (c *EventAction) After() {
     c.Write([]byte(" after"))
 }
+
+func main() {
+    t := tango.Classic()
+    t.Use(events.Events())
+    t.Get("/", new(EventAction))
+    t.Run()
+}
 ```
