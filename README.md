@@ -1,7 +1,7 @@
 events [![Build Status](https://drone.io/github.com/tango-contrib/events/status.png)](https://drone.io/github.com/tango-contrib/events/latest) [![](http://gocover.io/_badge/github.com/tango-contrib/events)](http://gocover.io/github.com/tango-contrib/events)
 ======
 
-Middleware events is a event middleware for [Tango](https://github.com/lunny/tango). 
+Middleware events is an event middleware for [Tango](https://github.com/lunny/tango). 
 
 ## Installation
 
